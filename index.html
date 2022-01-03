@@ -1,153 +1,100 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wordpress intensive</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.csss">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-reboot.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
     <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
 </head>
 <body>
-    <section class="promo">
-        <div class="container">
-         <div class="logo">
-             <img src="icons/logo.png" alt="logo" class="logo_img">
-             <div class="logo_text">WordPress интенсив</div>
-         </div>
-
-         <h1 class="title">Создать свой сайт на WordPress </h1>
-         <div class="simple">
-             <h2 class="title_big">это просто! </h2>
-             <div class="line"></div>
-         </div>
-
-         <h2 class="title">Куда сложнее сделать это правильно!</h2>
-         <div class="promo_text">Ежедневно в России появляется более 5 000 новых сайтов.<br>
-            И только единицы из них становятся популярными и приносят ощутимую прибыль. В чем секрет? В чем формула успеха? Узнайте на предстоящем двухдневном <span class="colortext">БЕСПЛАТНОМ</span> интенсиве!</div>
-            <button class="promo_btn">Записаться на интенсив!</button>
-            <div class="more">
-                <div class="more_text">узнать больше об интенсиве</div>
-                <img src="icons/arrow_down.png" alt="" class="more_img">
-            </div>
-        </div>
-    </section>
-    <section class="waiting">
-        <div class="container">
-            <h2 class="waiting_header">Что вас ждет в нашем интенсиве?</h2>
-            <div class="waiting_divider"></div>
-            <div class="waiting_subheader">2 бесплатных полноценных обучающих вебинара, где:</div>
-            <div class="waiting_wrapper">
-                <div class="waiting_item">
-                    <img src="img/waiting/01.png" alt="1" class="waiting_img">
-                    <div class="waitng_descr">Всего за два бесплатных вебинара мы научим вас, как создать свой сайт на WordPress.</div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 left-column">
+                <img src="assets/img/bV3EEfstBPs.jpg" width="200" height="200" class="photo-img" alt="photo">
+                <div class="header-title"><h1>Stas Solovev</h1></div>
+                <div class="post-title">Junior frontend developer</div>
+                <hr>
+                <div class="contacts_data">
+                    <div class="contacts-title title">Contacts</div>
+                    <div class="phone"><img src="assets/icons/phone.png" width="30" height="30" alt="phone"> +7-912-741-72-80</div>
+                    <div class="mail"><img src="assets/icons/mail.png" width="30" height="30" alt="email"> oleluckoye@gmail.com</div>
+                    <div class="telegram"><img src="assets/icons/telegram.png" width="30" height="30" alt="telegramm"> @st_koala</div>    
                 </div>
-                <div class="waiting_item">
-                    <img src="img/waiting/02.png" alt="2" class="waiting_img">
-                    <div class="waitng_descr">Покажем, как правильно оптимизировать сайт и сделать его привлекательным для поисковых систем. Только свежая, профессиональная и 
-                    актуальная информация!</div>
-                </div>
-                <div class="waiting_item">
-                    <img src="img/waiting/03.png" alt="3" class="waiting_img">
-                    <div class="waitng_descr">Вы узнаете, что такое «хорошая индексация»,
-                        «высокая посещаемость», «стабильный прирост посетителей», «ТОП по запросам» и, что намного важнее, как добиться всех этих показателей!</div>
+                <hr>
+                <div class="skills">
+                    <div class="skills-title title">
+                        Skills
+                    </div>
+                    <ul class="ul-skills">
+                        <li>HTML </li>
+                        <li>CSS/SASS</li>
+                        <li>JavaScript</li>
+                        <li>Git</li>
+                        <li>Photoshop, Figma</li>
+                    </ul>               
                 </div>
             </div>
-
+            <div class="col-md-8 right-column">
+                <hr>
+               <div class="about-me">
+                   <div class="about-me title">about me</div>
+                   <div class="about-me-text">
+                         I launched my first website back in 2008. Since then I have been fond of creating websites and programming. In the last year, I have been seriously thinking about changing my profession, and decided to master programming in JS
+                   </div>
+                <hr>
+                <div class="education">
+                    <div class="education title">education</div>
+                    <div class="education-text">
+                        <ul>Udemy:
+                            <li>Web developer 2021</li>
+                            <li>50 Projects In 50 Days - HTML, CSS & JavaScript</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <div class="code-examples">
+                    <div class="code-example title">code example</div>
+                    <div class="task-title">
+                        task:
+                    </div>
+                    <div class="task-code"><code>function multiply(a, b){
+                        a * b
+                      }</code></div>
+                    <div class="solution-title">solution:</div>
+                    <div class="solution-code"><code>function multiply(a, b){
+                        return a * b
+                     }</code></div>
+                </div>
+                <hr>
+                <div class="languages">
+                    <div class="language title">language</div>
+                    <div class="language-text">
+                        <ul>
+                            <li>Russian (native)</li>
+                            <li>English (A1)</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+               </div>
+            </div>
         </div>
-    </section>
-
-    <section class="optimization">
+    </div>
+    <footer>
         <div class="container">
-        <h2 class="optimization_header">
-            Что такое оптимизация и зачем она нужна?
-        </h2>
-        <div class="optimization_text">
-            На просторах интернета несчетное количество действующих и даже заброшенных сайтов. Большинство из них совпадает не только по категориям, но и по содержанию. 
-            <br><br>
-            Представьте себе тысячи сайтов, на которых тем или иным образом предоставляется одна и та же информация или продается одна и та же услуга. И попасть на эти сайты можно лишь по тематическим запросам в поисковых системах.
-            <br><br> 
-            Но как вам быть, если ваш сайт похож на сотню или тысячу таких же, а на одной странице гугла или яндекса всего 10 позиций? Как привести посетителей страницы своего ресурса? Именно для этого и нужна оптимизация – для вывода вашего сайта на первую страницу поиска!
-            <br><br> 
-           <span> Мы научим вас, как сделать ваш сайт привлекательным для поисковых систем и посоветуем, как вывести его на первые страницы, обходя всех конкурентов.</span>
-        </div>
-        <img src="img/bg/woman_bg.png" alt="woman" class="optimization_img">
-        </div>
-
-    </section>
-    <section class="finish">
-        <div class="container">
-            <h2 class="finish_header">По окончании обучения Вы сможете!</h2>
-            <div class="finish_divider"></div>
-            <div class="finish_wrapper">
-                <div class="finish_item">
-                    <div class="finish_round">
-                        <img src="icons/finish/1.png" alt="1" class="finish_icon">
-                    </div>
-                    <div class="finish_descr">Создать свой сайт или блог</div>
-                </div>
-                <div class="finish_item">
-                    <div class="finish_round">
-                        <img src="icons/finish/2.png" alt="2" class="finish_icon">
-                    </div>
-                    <div class="finish_descr">Правильно его оптимизировать</div>
-                </div>
-                <div class="finish_item">
-                    <div class="finish_round">
-                        <img src="icons/finish/3.png" alt="3" class="finish_icon">
-                    </div>
-                    <div class="finish_descr">Обеспечить ему медленный, но верный рост в ТОП</div>
-                </div>
-                <div class="finish_item">
-                    <div class="finish_round">
-                        <img src="icons/finish/4.png" alt="4" class="finish_icon">
-                    </div>
-                    <div class="finish_descr">Достигнуть стабильного прироста посетителей</div>
-                </div>
-                <div class="finish_item">
-                    <div class="finish_round">
-                        <img src="icons/finish/5.png" alt="5" class="finish_icon">
-                    </div>
-                    <div class="finish_descr">Получать ощутимую прибыль</div>
+            <div class="col-md-4">
+                <div class="d-flex justify-content-evenly">
+                <a href="https://rs.school/js/"><img src="assets/img/rs_school_js.svg" width="70" height="70" class="rssschool" alt="logo-rsschool"></a>
+                <a href="https://github.com/oleluckoye"><img src="assets/icons/github.png" width="30" height="30" class="github" alt="github-logo"></a>
+                <div class="copiright">&copy2022</div>
                 </div>
             </div>
         </div>
-    </section>
-    <section class="gift">
-        <div class="container">
-           <div class="gift_item">
-            <img src="/icons/bantik.png" alt="bantik" class="bantik">
-            <img src="/icons/gift.png" alt="" class="gift_img">
-               <div class="gift_descr">Для всех участников интенсива предусмотрены бонусы и подарки. Нажимайте на кнопку ниже, принимайте участие в вебинарах и забирайте свой приз по окончании обучения!</div>
-               <button class="gift_button">Записаться на интенсив!</button>
-           </div>
-        </div>
-    </section> 
-
-    <section class="first_webinar">
-        <div class="contaner">
-            <div class="comp_img"></div>
-            <img src="/img/first_webinar/first_webinar.png" alt="" class="comp_img">
-         
-            <div class="webinar_descr">Первый вебинар состоится: 
-            </div>
-            <div class="webinar_descr_middle">10 сентября в 20:00 по Москве</div>
-            <div class="webinar_descr_low">Успейте записаться, количество мест ограничено!</div>
-        </div>
-    </section> 
-    <section class="footer">
-        <div class="container">
-                <ul class="footer_information">
-                    <li class="support"> <a href="">Служба поддержки</a></li>
-                    <li class="slash"> &nbsp;|&nbsp; </li>
-                    <li class="politics"><a href="">Политика конфиденциальности</a></li>
-                </ul>
-            <div class="tlephone">Позвоните нам 8-800 -555-55-55 </div>        
-                
-        </div>
-    </section> 
+        
+    </footer>
 </body>
-</html> 
+</html>
