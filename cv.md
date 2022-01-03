@@ -3,7 +3,7 @@
 #### Junior frontend developer
 ---
 ### Contacts:
-* Phone: +7 912 741 7280
+* Phone: +7 912 741 72-80
 * E-mail: oleluckoye@gmail.com
 * Telegram: @st_koala
 ### About me:
